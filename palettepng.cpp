@@ -556,7 +556,7 @@ int main(int argc, char *argv[])
   //if there's an error, display it
   if(error != 0) printf("error: %d \n", error);
   if(image.size() > 4) printf("width: %lu height: %lu\n", w, h);
-  char ascii[] = " .-:^0123-5+789:;:=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
+  char ascii[] = " .-:^012-#5q7+9:;:=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
   
   printf("\npalette size=%lu\n",palette.size());
   for(size_t i = 0; i < palette.size(); i++)
