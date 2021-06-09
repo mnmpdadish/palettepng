@@ -540,7 +540,7 @@ int main(int argc, char *argv[])
 {
 
   if(argc!=2) {
-    printf("program usage example:\n$ ./pico image.png\n\n");
+    printf("program usage example:\n$ ./palettePNG image.png\n\n");
     exit(1);
   }
   
