@@ -14,7 +14,7 @@ $ make
 in terminal type:
 
 ```
-$ ./palettePNG linux_sprite_palette.png 
+$ ./palettePNG sprite.png 
 ```
 
 Expected result:
